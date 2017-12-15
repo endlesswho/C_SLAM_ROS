@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -g   -shared -Wl,-soname,libtracking.so -o libtracking.so CMakeFiles/tracking.dir/TrackManager.cpp.o CMakeFiles/tracking.dir/TrackTarget.cpp.o CMakeFiles/tracking.dir/assignmentoptimal.cpp.o 

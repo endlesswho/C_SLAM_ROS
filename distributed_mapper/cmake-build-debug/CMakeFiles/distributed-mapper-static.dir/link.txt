@@ -1,0 +1,2 @@
+/usr/bin/ar qc devel/lib/libdistributed-mapper-static.a  CMakeFiles/distributed-mapper-static.dir/include/distributed_mapper/DistributedMapper.cpp.o CMakeFiles/distributed-mapper-static.dir/include/distributed_mapper/MultiRobotUtils.cpp.o
+/usr/bin/ranlib devel/lib/libdistributed-mapper-static.a

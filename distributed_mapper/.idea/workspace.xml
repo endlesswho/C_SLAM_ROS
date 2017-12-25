@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="distributed_optimization_ros" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="download_extra_data" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="distributed_mapper_optimization" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="gtest_main" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="gtest" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="distributed-mapper-static" />
+      <config projectName="distributed_mapper" targetName="doxygen" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="run_tests" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="clean_test_results" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="tests" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="make_graph" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="distributed-mapper" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_nodejs" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9469cf59-bde5-46db-9e49-35561e95dffc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CATKIN_IGNORE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/distributed_mapper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeSystem.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/CMakeCCompilerId.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/actionlib_msgs_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clean_test_results.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clean_test_results.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clean_test_results.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clean_test_results.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper-static.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper-static.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper-static.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper-static.dir/cmake_clean_target.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper-static.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper-static.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper-static.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper-static.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed-mapper.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed_mapper_optimization.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed_mapper_optimization.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed_mapper_optimization.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed_mapper_optimization.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed_mapper_optimization.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed_mapper_optimization.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/distributed_mapper_optimization.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/download_extra_data.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/download_extra_data.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/download_extra_data.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/download_extra_data.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/doxygen.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/doxygen.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/doxygen.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/doxygen.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geometry_msgs_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/make_graph.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/make_graph.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/make_graph.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/make_graph.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/make_graph.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/make_graph.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/make_graph.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nav_msgs_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/roscpp_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run_tests.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run_tests.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run_tests.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run_tests.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/std_msgs_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tests.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tests.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tests.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tests.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf2_msgs_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_cpp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_cpp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_cpp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_eus.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_eus.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_eus.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_lisp.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_lisp.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_nodejs.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_nodejs.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_nodejs.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_py.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_py.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tf_generate_messages_py.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin/catkin_generated/version/package.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/env_cached.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/generate_cached_setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/.rosinstall" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/_setup_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/distributed_mapper.pc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/distributed_mapperConfig-version.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/distributed_mapperConfig.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/env.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/setup.bash" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/setup.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/setup.zsh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/ordered_paths.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/package.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/pkg.develspace.context.pc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/pkg.installspace.context.pc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/setup_cached.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/distributed_mapper/_setup_util.py.stamp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/distributed_mapper/interrogate_setup_dot_py.py.stamp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/distributed_mapper/package.xml.stamp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/distributed_mapper/pkg.pc.em.stamp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/.catkin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/.rosinstall" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/_setup_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/env.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/lib/pkgconfig/distributed_mapper.pc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/setup.bash" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/setup.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/setup.zsh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/share/distributed_mapper/cmake/distributed_mapperConfig-version.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/devel/share/distributed_mapper/cmake/distributed_mapperConfig.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/distributed_mapper.cbp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest_main.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest_main.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest_main.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest_main.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/gtest_main.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/CTestTestfile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/gtest/gtest.cbp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake_modules/FindBLAS.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake_modules/FindCSparse.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake_modules/FindCholmod.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake_modules/FindEigen3.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake_modules/FindG2O.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake_modules/FindLAPACK.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake_modules/FindQGLViewer.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake_modules/FindSuiteSparse.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/distributed_mapper/BetweenChordalFactor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/distributed_mapper/DistributedMapper.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/distributed_mapper/DistributedMapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/distributed_mapper/MultiRobotUtils.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/distributed_mapper/MultiRobotUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DistributedMapperOptimization.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/make_graph.cpp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="distributed_mapper" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DistributedOptimizationRos.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DistributedOptimizationRos.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+              <folding>
+                <element signature="e#39#58#0" expanded="true" />
+                <element signature="e#114#134#0" expanded="true" />
+                <element signature="e#342#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="make_graph.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2584">
+              <caret line="151" column="14" lean-forward="true" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DistributedMapperUtils.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9348">
+              <caret line="523" column="0" lean-forward="false" selection-start-line="523" selection-start-column="0" selection-end-line="523" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1729">
+              <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DistributedMapperOptimization.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5206">
+              <caret line="274" column="55" lean-forward="false" selection-start-line="274" selection-start-column="55" selection-end-line="274" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>g2o</find>
+      <find>a_T_b</find>
+      <find>id</find>
+      <find>new_key</find>
+      <find>init_flag</find>
+      <find>gtsam</find>
+      <find>gps_init_flag</find>
+      <find>ROBOT_A_IDX</find>
+      <find>set</find>
+      <find>G2O_ROOT</find>
+      <find>CMAKE_MODULE_PATH</find>
+      <find>step</find>
+      <find>tmp</find>
+      <find>distMapper</find>
+      <find>getNeighboringChars</find>
+      <find>copyInitial</find>
+      <find>distribute</find>
+      <find>distributed</find>
+      <find>pi</find>
+      <find>M_PI</find>
+      <find>distMappers</find>
+      <find>rotationTrace</find>
+      <find>updateType</find>
+      <find>estimate</find>
+      <find>estimates</find>
+      <find>fullGraphAndValues</find>
+      <find>debug</find>
+      <find>callback_flag</find>
+      <find>rotationEstimateChangeThreshold</find>
+      <find>distributed_optimization_ros</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/make_graph.cpp" />
+        <option value="$PROJECT_DIR$/src/DistributedMapperOptimization.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/DistributedOptimizationRos.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.distributed_optimization_ros">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_generate_messages_cpp" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="distributed_mapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="distributed_mapper" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="distributed_mapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="distributed_mapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="distributed_mapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="distributed_mapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="distributed_mapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="actionlib_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="actionlib_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="distributed-mapper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="distributed-mapper" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="distributed-mapper-static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="distributed-mapper-static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="download_extra_data" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="doxygen" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="geometry_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="geometry_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="geometry_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="geometry_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="geometry_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="geometry_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="geometry_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="geometry_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="geometry_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="geometry_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="make_graph" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="make_graph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="distributed_mapper" RUN_TARGET_NAME="make_graph">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="nav_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="nav_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="nav_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="nav_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="nav_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="nav_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="nav_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="nav_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="nav_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="nav_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="run_tests" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sensor_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="sensor_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sensor_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="sensor_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sensor_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="sensor_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sensor_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="sensor_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sensor_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="sensor_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tests" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf2_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf2_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf2_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf2_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf2_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf2_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf2_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf2_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf2_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf2_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tf_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="tf_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="distributed_mapper_optimization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="distributed_mapper_optimization" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="distributed_mapper" RUN_TARGET_NAME="distributed_mapper_optimization">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="distributed_optimization_ros" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="distributed_optimization_ros" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="distributed_mapper" RUN_TARGET_NAME="distributed_optimization_ros">
+      <envs />
+      <method />
+    </configuration>
+    <list size="63">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.actionlib_generate_messages_cpp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.actionlib_generate_messages_eus" />
+      <item index="3" class="java.lang.String" itemvalue="Application.actionlib_generate_messages_lisp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.actionlib_generate_messages_nodejs" />
+      <item index="5" class="java.lang.String" itemvalue="Application.actionlib_generate_messages_py" />
+      <item index="6" class="java.lang.String" itemvalue="Application.actionlib_msgs_generate_messages_cpp" />
+      <item index="7" class="java.lang.String" itemvalue="Application.actionlib_msgs_generate_messages_eus" />
+      <item index="8" class="java.lang.String" itemvalue="Application.actionlib_msgs_generate_messages_lisp" />
+      <item index="9" class="java.lang.String" itemvalue="Application.actionlib_msgs_generate_messages_nodejs" />
+      <item index="10" class="java.lang.String" itemvalue="Application.actionlib_msgs_generate_messages_py" />
+      <item index="11" class="java.lang.String" itemvalue="Application.clean_test_results" />
+      <item index="12" class="java.lang.String" itemvalue="Application.distributed-mapper" />
+      <item index="13" class="java.lang.String" itemvalue="Application.distributed-mapper-static" />
+      <item index="14" class="java.lang.String" itemvalue="Application.download_extra_data" />
+      <item index="15" class="java.lang.String" itemvalue="Application.doxygen" />
+      <item index="16" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_cpp" />
+      <item index="17" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_eus" />
+      <item index="18" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_lisp" />
+      <item index="19" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_nodejs" />
+      <item index="20" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_py" />
+      <item index="21" class="java.lang.String" itemvalue="Application.make_graph" />
+      <item index="22" class="java.lang.String" itemvalue="Application.nav_msgs_generate_messages_cpp" />
+      <item index="23" class="java.lang.String" itemvalue="Application.nav_msgs_generate_messages_eus" />
+      <item index="24" class="java.lang.String" itemvalue="Application.nav_msgs_generate_messages_lisp" />
+      <item index="25" class="java.lang.String" itemvalue="Application.nav_msgs_generate_messages_nodejs" />
+      <item index="26" class="java.lang.String" itemvalue="Application.nav_msgs_generate_messages_py" />
+      <item index="27" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_cpp" />
+      <item index="28" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_eus" />
+      <item index="29" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_lisp" />
+      <item index="30" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_nodejs" />
+      <item index="31" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_py" />
+      <item index="32" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_cpp" />
+      <item index="33" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_eus" />
+      <item index="34" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_lisp" />
+      <item index="35" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item index="36" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_py" />
+      <item index="37" class="java.lang.String" itemvalue="Application.run_tests" />
+      <item index="38" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_cpp" />
+      <item index="39" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_eus" />
+      <item index="40" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_lisp" />
+      <item index="41" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_nodejs" />
+      <item index="42" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_py" />
+      <item index="43" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_cpp" />
+      <item index="44" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_eus" />
+      <item index="45" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_lisp" />
+      <item index="46" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_nodejs" />
+      <item index="47" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_py" />
+      <item index="48" class="java.lang.String" itemvalue="Application.tests" />
+      <item index="49" class="java.lang.String" itemvalue="Application.tf2_msgs_generate_messages_cpp" />
+      <item index="50" class="java.lang.String" itemvalue="Application.tf2_msgs_generate_messages_eus" />
+      <item index="51" class="java.lang.String" itemvalue="Application.tf2_msgs_generate_messages_lisp" />
+      <item index="52" class="java.lang.String" itemvalue="Application.tf2_msgs_generate_messages_nodejs" />
+      <item index="53" class="java.lang.String" itemvalue="Application.tf2_msgs_generate_messages_py" />
+      <item index="54" class="java.lang.String" itemvalue="Application.tf_generate_messages_cpp" />
+      <item index="55" class="java.lang.String" itemvalue="Application.tf_generate_messages_eus" />
+      <item index="56" class="java.lang.String" itemvalue="Application.tf_generate_messages_lisp" />
+      <item index="57" class="java.lang.String" itemvalue="Application.tf_generate_messages_nodejs" />
+      <item index="58" class="java.lang.String" itemvalue="Application.tf_generate_messages_py" />
+      <item index="59" class="java.lang.String" itemvalue="Application.gtest" />
+      <item index="60" class="java.lang.String" itemvalue="Application.gtest_main" />
+      <item index="61" class="java.lang.String" itemvalue="Application.distributed_mapper_optimization" />
+      <item index="62" class="java.lang.String" itemvalue="Application.distributed_optimization_ros" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9469cf59-bde5-46db-9e49-35561e95dffc" name="Default" comment="" />
+      <created>1512983428602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512983428602</updated>
+      <workItem from="1512983429877" duration="1649000" />
+      <workItem from="1512995167495" duration="1213000" />
+      <workItem from="1513172125769" duration="10913000" />
+      <workItem from="1513222495104" duration="22958000" />
+      <workItem from="1513583953315" duration="43425000" />
+      <workItem from="1513692708016" duration="7518000" />
+      <workItem from="1513785324061" duration="1372000" />
+      <workItem from="1513838761729" duration="2041000" />
+      <workItem from="1513846009301" duration="738000" />
+      <workItem from="1513933872563" duration="5178000" />
+      <workItem from="1513941213771" duration="2821000" />
+      <workItem from="1513954033218" duration="321000" />
+      <workItem from="1513954647713" duration="8392000" />
+      <workItem from="1513964862394" duration="258000" />
+      <workItem from="1514020407406" duration="953000" />
+      <workItem from="1514037169883" duration="471000" />
+      <workItem from="1514037655470" duration="4000" />
+      <workItem from="1514037734764" duration="4963000" />
+      <workItem from="1514165694058" duration="2173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="117361000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19650654" sideWeight="0.49551857" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18305439" sideWeight="0.49563318" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5043668" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19650654" sideWeight="0.50448143" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.49563318" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5043668" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19650654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9861">
+          <caret line="519" column="92" lean-forward="false" selection-start-line="519" selection-start-column="92" selection-end-line="519" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/nonlinear/NonlinearFactorGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2413">
+          <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9861">
+          <caret line="519" column="92" lean-forward="false" selection-start-line="519" selection-start-column="92" selection-end-line="519" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/slam/dataset.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/nonlinear/NonlinearFactorGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2413">
+          <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9861">
+          <caret line="519" column="92" lean-forward="false" selection-start-line="519" selection-start-column="92" selection-end-line="519" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/slam/dataset.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/nonlinear/NonlinearFactorGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3686">
+          <caret line="194" column="24" lean-forward="false" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9861">
+          <caret line="519" column="92" lean-forward="false" selection-start-line="519" selection-start-column="92" selection-end-line="519" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/slam/dataset.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3686">
+          <caret line="194" column="24" lean-forward="false" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5035">
+          <caret line="265" column="52" lean-forward="false" selection-start-line="265" selection-start-column="52" selection-end-line="265" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9861">
+          <caret line="519" column="92" lean-forward="true" selection-start-line="519" selection-start-column="92" selection-end-line="519" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/slam/dataset.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/g2o/core/optimizable_graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10350">
+          <caret line="575" column="48" lean-forward="true" selection-start-line="575" selection-start-column="48" selection-end-line="575" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/g2o/core/sparse_optimizer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/inference/Symbol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/g2o/core/optimizable_graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3593">
+          <caret line="288" column="29" lean-forward="false" selection-start-line="288" selection-start-column="29" selection-end-line="288" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/g2o/solvers/cholmod/linear_solver_cholmod.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_pair.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="275" column="4" lean-forward="false" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/nonlinear/Values.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/boost/smart_ptr/shared_ptr.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="346" column="13" lean-forward="false" selection-start-line="346" selection-start-column="13" selection-end-line="346" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimizationExample.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="198" column="43" lean-forward="false" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/slam/dataset.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="130" column="3" lean-forward="false" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/src/gtest/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/src/gtest/src/gtest-all.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/src/gtest/src/gtest_main.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/mathcalls.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="273" column="32" lean-forward="false" selection-start-line="273" selection-start-column="32" selection-end-line="273" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="252" column="6" lean-forward="false" selection-start-line="252" selection-start-column="6" selection-end-line="252" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5206">
+          <caret line="274" column="55" lean-forward="false" selection-start-line="274" selection-start-column="55" selection-end-line="274" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/nonlinear/NonlinearFactorGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="110" column="32" lean-forward="false" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/MultiRobotUtils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="288" column="19" lean-forward="false" selection-start-line="288" selection-start-column="19" selection-end-line="288" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/BetweenChordalFactor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="133" column="39" lean-forward="false" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9348">
+          <caret line="523" column="0" lean-forward="false" selection-start-line="523" selection-start-column="0" selection-end-line="523" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedOptimizationRos.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#342#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="151" column="14" lean-forward="true" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

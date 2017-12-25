@@ -1,0 +1,2 @@
+Dependencies:CMake,libboost-all-dev,gtsam
+runDistributedMapper --nrRobots 4 --dataDir ../../data/example_4robots/

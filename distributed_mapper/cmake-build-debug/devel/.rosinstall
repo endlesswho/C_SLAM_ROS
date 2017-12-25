@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/setup.sh

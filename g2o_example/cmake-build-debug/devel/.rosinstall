@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/huyh/distributed_mapper_ws/src/g2o_example/cmake-build-debug/devel/setup.sh

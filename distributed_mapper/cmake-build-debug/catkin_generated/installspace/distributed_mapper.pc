@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: distributed_mapper
+Description: Description of distributed_mapper
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/huyh/C_SLAM_ws/src/simple_detection/cmake-build-debug/devel/setup.sh

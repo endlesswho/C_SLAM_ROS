@@ -309,19 +309,6 @@ nav_msgs_generate_messages_cpp/fast:
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named distributed_optimization_ros
-
-# Build rule for target.
-distributed_optimization_ros: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 distributed_optimization_ros
-.PHONY : distributed_optimization_ros
-
-# fast build rule for target.
-distributed_optimization_ros/fast:
-	$(MAKE) -f CMakeFiles/distributed_optimization_ros.dir/build.make CMakeFiles/distributed_optimization_ros.dir/build
-.PHONY : distributed_optimization_ros/fast
-
-#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -411,6 +398,19 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 std_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named distributed_mapper_ros
+
+# Build rule for target.
+distributed_mapper_ros: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 distributed_mapper_ros
+.PHONY : distributed_mapper_ros
+
+# fast build rule for target.
+distributed_mapper_ros/fast:
+	$(MAKE) -f CMakeFiles/distributed_mapper_ros.dir/build.make CMakeFiles/distributed_mapper_ros.dir/build
+.PHONY : distributed_mapper_ros/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_lisp
@@ -1064,7 +1064,7 @@ src/DistributedOptimizationRos.o: src/DistributedOptimizationRos.cpp.o
 
 # target to build an object file
 src/DistributedOptimizationRos.cpp.o:
-	$(MAKE) -f CMakeFiles/distributed_optimization_ros.dir/build.make CMakeFiles/distributed_optimization_ros.dir/src/DistributedOptimizationRos.cpp.o
+	$(MAKE) -f CMakeFiles/distributed_mapper_ros.dir/build.make CMakeFiles/distributed_mapper_ros.dir/src/DistributedOptimizationRos.cpp.o
 .PHONY : src/DistributedOptimizationRos.cpp.o
 
 src/DistributedOptimizationRos.i: src/DistributedOptimizationRos.cpp.i
@@ -1073,7 +1073,7 @@ src/DistributedOptimizationRos.i: src/DistributedOptimizationRos.cpp.i
 
 # target to preprocess a source file
 src/DistributedOptimizationRos.cpp.i:
-	$(MAKE) -f CMakeFiles/distributed_optimization_ros.dir/build.make CMakeFiles/distributed_optimization_ros.dir/src/DistributedOptimizationRos.cpp.i
+	$(MAKE) -f CMakeFiles/distributed_mapper_ros.dir/build.make CMakeFiles/distributed_mapper_ros.dir/src/DistributedOptimizationRos.cpp.i
 .PHONY : src/DistributedOptimizationRos.cpp.i
 
 src/DistributedOptimizationRos.s: src/DistributedOptimizationRos.cpp.s
@@ -1082,7 +1082,7 @@ src/DistributedOptimizationRos.s: src/DistributedOptimizationRos.cpp.s
 
 # target to generate assembly for a file
 src/DistributedOptimizationRos.cpp.s:
-	$(MAKE) -f CMakeFiles/distributed_optimization_ros.dir/build.make CMakeFiles/distributed_optimization_ros.dir/src/DistributedOptimizationRos.cpp.s
+	$(MAKE) -f CMakeFiles/distributed_mapper_ros.dir/build.make CMakeFiles/distributed_mapper_ros.dir/src/DistributedOptimizationRos.cpp.s
 .PHONY : src/DistributedOptimizationRos.cpp.s
 
 src/make_graph.o: src/make_graph.cpp.o
@@ -1131,7 +1131,6 @@ help:
 	@echo "... nav_msgs_generate_messages_nodejs"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_cpp"
-	@echo "... distributed_optimization_ros"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... install/strip"
 	@echo "... nav_msgs_generate_messages_eus"
@@ -1141,6 +1140,7 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... install"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... distributed_mapper_ros"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... run_tests"
 	@echo "... actionlib_generate_messages_lisp"

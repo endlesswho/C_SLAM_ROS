@@ -19,6 +19,19 @@
 #include <g2o/core/optimization_algorithm_levenberg.h>
 #include <g2o/solvers/eigen/linear_solver_eigen.h>
 // #include <g2o/solvers/cholmod/linear_solver_cholmod.h>
+// gtsam
+#include <DistributedMapperUtils.h>
+#include <MultiRobotUtils.h>
+#include <BetweenChordalFactor.h>
+
+#include <boost/lexical_cast.hpp>
+#include <boost/program_options.hpp>
+#include <boost/random/mersenne_twister.hpp>
+#include <boost/random/normal_distribution.hpp>
+#include <boost/random/variate_generator.hpp>
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
+
 
 //TODO 问题1：保存的图从LOAM中读取得到，此处默认起始位置和终止位置是同一个点，这里的代码出现的问题主要是GPS的方位角存在一定的问题，起始点的伸展方向存在一定问题，解决方法就：重新采集数据进行测试。
 
@@ -71,7 +84,7 @@ void addVertex(g2o::OptimizableGraph* graph_ptr, int id, Eigen::Isometry3d pose)
     graph_ptr->addVertex(v);
 }
 
-void addEdge(g2o::OptimizableGraph* graph_ptr, int id_a, int id_b, Eigen::Isometry3d a_T_b){
+void addEdge(g2o::OptimizableGraph* graph_ptr, int64_t id_a, int id_b, Eigen::Isometry3d a_T_b){
     EdgeSE3 *edge = new EdgeSE3();
     cout<<"id_a:"<<id_a<<" id_b:"<<id_b<<endl;
     edge->vertices() [0] = graph_ptr->vertex( id_a );
@@ -166,13 +179,17 @@ int main(int argc, char** argv) {
        // add Vertex to the graph
         if(callback_flag){
             const int id = uniqueId.getUniqueId();
-            cout<<id<<endl;
+            // gtsam key and symbol
+            gtsam::Symbol new_key('a', id);
+            cout<<"id:"<<id<<endl;
+            cout<<"key:"<<new_key.key()<<endl;
+
             if(id<=ROBOT_A_IDX){
                 addVertex(graph, id, step);
                 if(init_flag){
                     // add edge to the graph
                     Eigen::Isometry3d a_T_b = step_last.inverse() * step;
-                    addEdge(graph, id, id-1, a_T_b);
+                    addEdge(graph, new_key.key(), id-1, a_T_b);
                 } else{
                     Eigen::Isometry3d a_T_b = basic_trans.inverse() * step;
                     addEdge(graph, id, id-1, a_T_b);

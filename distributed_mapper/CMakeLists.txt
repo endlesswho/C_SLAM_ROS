@@ -84,13 +84,13 @@ set(G2OLIBS csparse cxsparse g2o_cli g2o_core g2o_interface g2o_parser
         g2o_types_sba g2o_types_slam2d g2o_types_sim3 )
 
 add_executable(make_graph src/make_graph.cpp)
-target_link_libraries(make_graph ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS} ${G2OLIBS} gtsam)
+target_link_libraries(make_graph distributed-mapper ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS} ${G2OLIBS} gtsam)
 
 add_executable(distributed_mapper_optimization src/DistributedMapperOptimization.cpp)
 target_link_libraries(distributed_mapper_optimization distributed-mapper ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS} ${G2OLIBS} gtsam)
 
-add_executable(distributed_optimization_ros src/DistributedOptimizationRos.cpp)
-target_link_libraries(distributed_optimization_ros distributed-mapper ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS} ${G2OLIBS} gtsam)
+add_executable(distributed_mapper_ros src/DistributedOptimizationRos.cpp)
+target_link_libraries(distributed_mapper_ros distributed-mapper ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS} ${G2OLIBS} gtsam)
 
 
 

@@ -80,9 +80,21 @@ int main(int argc, char* argv[])
     int64_t tmp  = 0;
     // Vector of distributed optimizers, one for each robot
     vector< boost::shared_ptr<DistributedMapper> > distMappers;
+    // Construct a distributed jacobi object with the given robot name
+    boost::shared_ptr<DistributedMapper> distMapper(new DistributedMapper('a'));
     while(status){
         if(callback_flag){
 
+            
+
+
+
+            // Use between noise or not in optimizePoses
+            distMapper->setUseBetweenNoiseFlag(false);
+            // Use landmarks
+            distMapper->setUseLandmarksFlag(false);
+            // Load subgraphs
+//            distMapper->loadSubgraphAndCreateSubgraphEdge(graphAndValues);
         }
         ros::spinOnce();
     }
@@ -95,7 +107,7 @@ int main(int argc, char* argv[])
     vector < VectorValues > rotationVectorValuesTrace;
     vector< Values > estimates =  distributedOptimizer(distMappers, maxIter, updateType, gamma_value,
                                                        rotationEstimateChangeThreshold, poseEstimateChangeThreshold, useFlaggedInit, useLandmarks,
-                                                       false, rotationTrace, poseTrace, subgraphRotationTrace, subgraphPoseTrace, rotationVectorValuesTrace);
+                                                       true, rotationTrace, poseTrace, subgraphRotationTrace, subgraphPoseTrace, rotationVectorValuesTrace);
     return 0;
 }
 

@@ -10,4 +10,7 @@ set(distributed_mapper_EXEC_DEPENDS "nav_msgs" "roscpp" "rospy" "sensor_msgs" "s
 set(distributed_mapper_RUN_DEPENDS "nav_msgs" "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
 set(distributed_mapper_TEST_DEPENDS )
 set(distributed_mapper_DOC_DEPENDS )
+set(distributed_mapper_URL_WEBSITE "")
+set(distributed_mapper_URL_BUGTRACKER "")
+set(distributed_mapper_URL_REPOSITORY "")
 set(distributed_mapper_DEPRECATED "")

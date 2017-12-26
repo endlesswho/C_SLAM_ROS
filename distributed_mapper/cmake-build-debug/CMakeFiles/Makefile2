@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake
 # Target rules for target CMakeFiles/make_graph.dir
 
 # All Build rule for target.
-CMakeFiles/make_graph.dir/all:
+CMakeFiles/make_graph.dir/all: CMakeFiles/distributed-mapper.dir/all
 	$(MAKE) -f CMakeFiles/make_graph.dir/build.make CMakeFiles/make_graph.dir/depend
 	$(MAKE) -f CMakeFiles/make_graph.dir/build.make CMakeFiles/make_graph.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target make_graph"
@@ -76,7 +76,7 @@ all: CMakeFiles/make_graph.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/make_graph.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/make_graph.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/make_graph.dir/rule
@@ -422,43 +422,6 @@ clean: CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/distributed_optimization_ros.dir
-
-# All Build rule for target.
-CMakeFiles/distributed_optimization_ros.dir/all: CMakeFiles/distributed-mapper.dir/all
-	$(MAKE) -f CMakeFiles/distributed_optimization_ros.dir/build.make CMakeFiles/distributed_optimization_ros.dir/depend
-	$(MAKE) -f CMakeFiles/distributed_optimization_ros.dir/build.make CMakeFiles/distributed_optimization_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target distributed_optimization_ros"
-.PHONY : CMakeFiles/distributed_optimization_ros.dir/all
-
-# Include target in all.
-all: CMakeFiles/distributed_optimization_ros.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/distributed_optimization_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/distributed_optimization_ros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/distributed_optimization_ros.dir/rule
-
-# Convenience name for target.
-distributed_optimization_ros: CMakeFiles/distributed_optimization_ros.dir/rule
-
-.PHONY : distributed_optimization_ros
-
-# clean rule for target.
-CMakeFiles/distributed_optimization_ros.dir/clean:
-	$(MAKE) -f CMakeFiles/distributed_optimization_ros.dir/build.make CMakeFiles/distributed_optimization_ros.dir/clean
-.PHONY : CMakeFiles/distributed_optimization_ros.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/distributed_optimization_ros.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -679,6 +642,43 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/distributed_mapper_ros.dir
+
+# All Build rule for target.
+CMakeFiles/distributed_mapper_ros.dir/all: CMakeFiles/distributed-mapper.dir/all
+	$(MAKE) -f CMakeFiles/distributed_mapper_ros.dir/build.make CMakeFiles/distributed_mapper_ros.dir/depend
+	$(MAKE) -f CMakeFiles/distributed_mapper_ros.dir/build.make CMakeFiles/distributed_mapper_ros.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target distributed_mapper_ros"
+.PHONY : CMakeFiles/distributed_mapper_ros.dir/all
+
+# Include target in all.
+all: CMakeFiles/distributed_mapper_ros.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/distributed_mapper_ros.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/distributed_mapper_ros.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/distributed_mapper_ros.dir/rule
+
+# Convenience name for target.
+distributed_mapper_ros: CMakeFiles/distributed_mapper_ros.dir/rule
+
+.PHONY : distributed_mapper_ros
+
+# clean rule for target.
+CMakeFiles/distributed_mapper_ros.dir/clean:
+	$(MAKE) -f CMakeFiles/distributed_mapper_ros.dir/build.make CMakeFiles/distributed_mapper_ros.dir/clean
+.PHONY : CMakeFiles/distributed_mapper_ros.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/distributed_mapper_ros.dir/clean
 
 .PHONY : clean
 

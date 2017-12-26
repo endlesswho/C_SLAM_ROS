@@ -2,68 +2,69 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
-      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="tf_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="distributed_optimization_ros" />
-      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="download_extra_data" />
-      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_py" />
-      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="distributed_mapper" targetName="distributed_mapper_optimization" />
-      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="gtest_main" />
       <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="doxygen" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="run_tests" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="download_extra_data" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="gtest" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="distributed_mapper_ros" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="clean_test_results" />
+      <config projectName="distributed_mapper" targetName="make_graph" />
+      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="tests" />
+      <config projectName="distributed_mapper" targetName="gtest_main" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="distributed_optimization_ros" />
       <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_eus" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="distributed-mapper-static" />
       <config projectName="distributed_mapper" targetName="tf_generate_messages_py" />
       <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="gtest" />
-      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_lisp" />
       <config projectName="distributed_mapper" targetName="actionlib_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="distributed-mapper-static" />
-      <config projectName="distributed_mapper" targetName="doxygen" />
-      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_py" />
-      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="run_tests" />
-      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_py" />
-      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="clean_test_results" />
-      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="tf_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="tf_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="tests" />
-      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="make_graph" />
-      <config projectName="distributed_mapper" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="distributed_mapper" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="distributed_mapper" targetName="tf_generate_messages_cpp" />
-      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_py" />
       <config projectName="distributed_mapper" targetName="distributed-mapper" />
-      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="tf_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="distributed_mapper" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="distributed_mapper" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="distributed_mapper" targetName="nav_msgs_generate_messages_cpp" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -443,11 +444,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DistributedOptimizationRos.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DistributedOptimizationRos.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DistributedOptimizationRos.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+            <state relative-caret-position="570">
+              <caret line="87" column="12" lean-forward="false" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
                 <element signature="e#114#134#0" expanded="true" />
@@ -457,31 +458,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="make_graph.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="make_graph.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2584">
-              <caret line="151" column="14" lean-forward="true" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="-4">
+              <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+              <folding>
+                <element signature="e#757#792#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DistributedMapperUtils.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
+      <file leaf-file-name="optimizable_graph.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/g2o/core/optimizable_graph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9348">
-              <caret line="523" column="0" lean-forward="false" selection-start-line="523" selection-start-column="0" selection-end-line="523" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="249">
+              <caret line="572" column="9" lean-forward="false" selection-start-line="572" selection-start-column="9" selection-end-line="572" selection-end-column="9" />
+              <folding>
+                <element signature="e#1514#1528#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="DistributedMapper.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapper.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1729">
-              <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="43" />
+            <state relative-caret-position="2062">
+              <caret line="382" column="45" lean-forward="false" selection-start-line="382" selection-start-column="38" selection-end-line="382" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -490,8 +495,20 @@
       <file leaf-file-name="DistributedMapperOptimization.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5206">
-              <caret line="274" column="55" lean-forward="false" selection-start-line="274" selection-start-column="55" selection-end-line="274" selection-end-column="55" />
+            <state relative-caret-position="0">
+              <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+              <folding>
+                <element signature="e#39#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataset.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/gtsam/slam/dataset.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="134" column="55" lean-forward="true" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -501,20 +518,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>g2o</find>
-      <find>a_T_b</find>
-      <find>id</find>
-      <find>new_key</find>
-      <find>init_flag</find>
-      <find>gtsam</find>
-      <find>gps_init_flag</find>
-      <find>ROBOT_A_IDX</find>
       <find>set</find>
       <find>G2O_ROOT</find>
       <find>CMAKE_MODULE_PATH</find>
       <find>step</find>
       <find>tmp</find>
-      <find>distMapper</find>
       <find>getNeighboringChars</find>
       <find>copyInitial</find>
       <find>distribute</find>
@@ -531,6 +539,15 @@
       <find>callback_flag</find>
       <find>rotationEstimateChangeThreshold</find>
       <find>distributed_optimization_ros</find>
+      <find>distributed_mapper_optimization</find>
+      <find>distMapper</find>
+      <find>symbol</find>
+      <find>SYMBOL</find>
+      <find>gtsam</find>
+      <find>robotnames</find>
+      <find>write</find>
+      <find>new_key</find>
+      <find>id_a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -539,9 +556,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/make_graph.cpp" />
         <option value="$PROJECT_DIR$/src/DistributedMapperOptimization.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/make_graph.cpp" />
         <option value="$PROJECT_DIR$/src/DistributedOptimizationRos.cpp" />
       </list>
     </option>
@@ -619,6 +636,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributed_mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1062,7 +1101,11 @@
       <envs />
       <method />
     </configuration>
-    <list size="63">
+    <configuration default="false" name="distributed_mapper_ros" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="distributed_mapper" TARGET_NAME="distributed_mapper_ros" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="distributed_mapper" RUN_TARGET_NAME="distributed_mapper_ros">
+      <envs />
+      <method />
+    </configuration>
+    <list size="64">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.actionlib_generate_messages_cpp" />
       <item index="2" class="java.lang.String" itemvalue="Application.actionlib_generate_messages_eus" />
@@ -1126,6 +1169,7 @@
       <item index="60" class="java.lang.String" itemvalue="Application.gtest_main" />
       <item index="61" class="java.lang.String" itemvalue="Application.distributed_mapper_optimization" />
       <item index="62" class="java.lang.String" itemvalue="Application.distributed_optimization_ros" />
+      <item index="63" class="java.lang.String" itemvalue="Application.distributed_mapper_ros" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -1156,12 +1200,12 @@
       <workItem from="1514037169883" duration="471000" />
       <workItem from="1514037655470" duration="4000" />
       <workItem from="1514037734764" duration="4963000" />
-      <workItem from="1514165694058" duration="2173000" />
+      <workItem from="1514165694058" duration="20714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117361000" />
+    <option name="totallyTimeSpent" value="135902000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1176,10 +1220,11 @@
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19650654" sideWeight="0.49551857" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39779004" sideWeight="0.49551857" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18305439" sideWeight="0.49563318" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5043668" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1191,7 +1236,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1249,17 +1293,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9861">
-          <caret line="519" column="92" lean-forward="false" selection-start-line="519" selection-start-column="92" selection-end-line="519" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/include/gtsam/nonlinear/NonlinearFactorGraph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1121">
           <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,7 +1305,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#757#792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1275,7 +1315,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2413">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#39#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1297,6 +1339,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1121">
           <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,7 +1347,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#757#792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,7 +1357,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2413">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#39#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,6 +1381,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1121">
           <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1341,7 +1389,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3686">
           <caret line="194" column="24" lean-forward="false" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#757#792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1349,7 +1399,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#39#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,7 +1423,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3686">
           <caret line="194" column="24" lean-forward="false" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#757#792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1379,7 +1433,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5035">
           <caret line="265" column="52" lean-forward="false" selection-start-line="265" selection-start-column="52" selection-end-line="265" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="e#39#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1401,7 +1457,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#757#792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,7 +1474,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#757#792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1424,7 +1484,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#757#792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1463,38 +1525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/include/gtsam/inference/Symbol.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/g2o/core/optimizable_graph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3593">
-          <caret line="288" column="29" lean-forward="false" selection-start-line="288" selection-start-column="29" selection-end-line="288" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/include/g2o/solvers/cholmod/linear_solver_cholmod.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-666">
           <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_pair.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="275" column="4" lean-forward="false" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/gtsam/nonlinear/Values.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1506,20 +1540,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimizationExample.cpp" />
-    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="198" column="43" lean-forward="false" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/gtsam/slam/dataset.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="130" column="3" lean-forward="false" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/src/gtest/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1555,18 +1575,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5206">
-          <caret line="274" column="55" lean-forward="false" selection-start-line="274" selection-start-column="55" selection-end-line="274" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/include/gtsam/nonlinear/NonlinearFactorGraph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
           <caret line="110" column="32" lean-forward="false" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,39 +1598,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="43" />
+        <state relative-caret-position="249">
+          <caret line="378" column="6" lean-forward="false" selection-start-line="378" selection-start-column="6" selection-end-line="378" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_pair.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="149" column="14" lean-forward="false" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapperUtils.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9348">
+        <state relative-caret-position="1509">
           <caret line="523" column="0" lean-forward="false" selection-start-line="523" selection-start-column="0" selection-end-line="523" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DistributedOptimizationRos.cpp">
+    <entry file="file:///usr/local/include/gtsam/nonlinear/Values.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+        <state relative-caret-position="-93">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="85" column="45" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/inference/Symbol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtsam/slam/dataset.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="134" column="55" lean-forward="true" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedMapperOptimization.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
           <folding>
-            <element signature="e#39#58#0" expanded="true" />
-            <element signature="e#114#134#0" expanded="true" />
-            <element signature="e#342#377#0" expanded="true" />
+            <element signature="e#39#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/distributed_mapper/DistributedMapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2062">
+          <caret line="382" column="45" lean-forward="false" selection-start-line="382" selection-start-column="38" selection-end-line="382" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/g2o/core/optimizable_graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="572" column="9" lean-forward="false" selection-start-line="572" selection-start-column="9" selection-end-line="572" selection-end-column="9" />
+          <folding>
+            <element signature="e#1514#1528#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/make_graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="151" column="14" lean-forward="true" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="-4">
+          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+          <folding>
+            <element signature="e#757#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DistributedOptimizationRos.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="87" column="12" lean-forward="false" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#342#377#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

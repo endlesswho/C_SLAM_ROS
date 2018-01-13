@@ -19,7 +19,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake_modules/FindCholmod.cmake"
   "../cmake_modules/FindEigen3.cmake"
   "../cmake_modules/FindG2O.cmake"
-  "../cmake_modules/FindSuiteSparse.cmake"
   "../package.xml"
   "/opt/clion/clion-2016.3.4/bin/cmake/share/cmake-3.6/Modules/CMakeCInformation.cmake"
   "/opt/clion/clion-2016.3.4/bin/cmake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake"
@@ -223,10 +222,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/make_graph.dir/DependInfo.cmake"
+  "CMakeFiles/g2o_optimization.dir/DependInfo.cmake"
   "CMakeFiles/distributed-mapper-static.dir/DependInfo.cmake"
   "CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "CMakeFiles/tf2_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake"
+  "CMakeFiles/publish_map.dir/DependInfo.cmake"
   "CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake"
   "CMakeFiles/actionlib_generate_messages_eus.dir/DependInfo.cmake"

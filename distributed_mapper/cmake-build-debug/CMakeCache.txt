@@ -95,6 +95,9 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 //Path to a library.
 CCOLAMD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libccolamd.so
 
+//The directory containing a CMake configuration file for CHOLMOD.
+CHOLMOD_DIR:PATH=CHOLMOD_DIR-NOTFOUND
+
 //Path to a file.
 CHOLMOD_INCLUDE_DIR:PATH=/usr/include/suitesparse
 
@@ -271,6 +274,9 @@ CSPARSE_INCLUDE_DIR:PATH=/usr/include/suitesparse
 //Path to a library.
 CSPARSE_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcxsparse.so
 
+//The directory containing a CMake configuration file for CSparse.
+CSparse_DIR:PATH=CSparse_DIR-NOTFOUND
+
 //Path to a program.
 DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
 
@@ -297,6 +303,9 @@ G2O_CORE_LIBRARY:FILEPATH=/usr/local/lib/libg2o_core.so
 
 //Path to a library.
 G2O_CORE_LIBRARY_DEBUG:FILEPATH=G2O_CORE_LIBRARY_DEBUG-NOTFOUND
+
+//The directory containing a CMake configuration file for G2O.
+G2O_DIR:PATH=G2O_DIR-NOTFOUND
 
 //Path to a file.
 G2O_INCLUDE_DIR:PATH=/usr/local/include

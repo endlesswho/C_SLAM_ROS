@@ -12,9 +12,10 @@
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 -- catkin 0.7.8
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
-find g2o libraries in: /usr/local/include
-find g2o lib in 
-find csparse in 
+CSparse Found
+find csparse in: /usr/include/suitesparse
+find g2o libraries in:  /usr/local/include
+CHOLMOD FOUND
 -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include;/usr/include;/usr/local/include/gtsam/3rdparty/Eigen/
 GTSAM Libraries: 
 -- Boost version: 1.58.0

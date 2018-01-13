@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tracking.dir/TrackManager.cpp.o"
   "CMakeFiles/tracking.dir/TrackTarget.cpp.o"
   "CMakeFiles/tracking.dir/assignmentoptimal.cpp.o"
-  "libtracking.pdb"
-  "libtracking.so"
+  "CMakeFiles/tracking.dir/TrackManager.cpp.o"
+  "../devel/lib/libtracking.pdb"
+  "../devel/lib/libtracking.so"
 )
 
 # Per-language clean rules from dependency scanning.

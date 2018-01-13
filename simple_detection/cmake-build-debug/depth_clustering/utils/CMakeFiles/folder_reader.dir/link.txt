@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++11 -fPIC -Wall  -g   -shared -Wl,-soname,libfolder_reader.so -o ../../devel/lib/libfolder_reader.so CMakeFiles/folder_reader.dir/folder_reader.cpp.o -lboost_filesystem -lboost_regex -lboost_system 

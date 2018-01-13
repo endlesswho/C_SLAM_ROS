@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++11 -fPIC -Wall  -g   -shared -Wl,-soname,libdrawable.so -o ../../../devel/lib/libdrawable.so CMakeFiles/drawable.dir/drawable_cloud.cpp.o CMakeFiles/drawable.dir/drawable_cube.cpp.o -lGL -lGLU 

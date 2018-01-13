@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++11 -fPIC -Wall  -g   -shared -Wl,-soname,libimage_labeler.so -o ../../devel/lib/libimage_labeler.so CMakeFiles/image_labeler.dir/abstract_image_labeler.cpp.o ../../devel/lib/libdifference.so -Wl,-rpath,/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/devel/lib 

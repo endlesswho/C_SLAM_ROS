@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -77,6 +78,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -99,6 +101,70 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="g2o_optimization">
+				<Option output="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/distributed_mapper/g2o_optimization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/distributed_mapper"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/home/huyh/distributed_mapper_ws/src/distributed_mapper/include/distributed_mapper"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 g2o_optimization"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="g2o_optimization/fast">
+				<Option output="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/distributed_mapper/g2o_optimization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/distributed_mapper"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/home/huyh/distributed_mapper_ws/src/distributed_mapper/include/distributed_mapper"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 g2o_optimization/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="distributed-mapper-static">
 				<Option output="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/libdistributed-mapper-static.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug"/>
@@ -108,6 +174,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -139,6 +206,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -186,6 +254,70 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="publish_map">
+				<Option output="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/distributed_mapper/publish_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/distributed_mapper"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/home/huyh/distributed_mapper_ws/src/distributed_mapper/include/distributed_mapper"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 publish_map"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="publish_map/fast">
+				<Option output="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/distributed_mapper/publish_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/devel/lib/distributed_mapper"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/home/huyh/distributed_mapper_ws/src/distributed_mapper/include/distributed_mapper"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 publish_map/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -350,6 +482,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -381,6 +514,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -482,6 +616,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -513,6 +648,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -724,6 +860,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -755,6 +892,7 @@
 				<Compiler>
 					<Add option="-DROS_PACKAGE_NAME=&quot;distributed_mapper&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/usr/include/suitesparse"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
 					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
@@ -1082,8 +1220,14 @@
 		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/src/DistributedOptimizationRos.cpp">
 			<Option target="distributed_mapper_ros"/>
 		</Unit>
+		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/src/g2o_optimization.cpp">
+			<Option target="g2o_optimization"/>
+		</Unit>
 		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/src/make_graph.cpp">
 			<Option target="make_graph"/>
+		</Unit>
+		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/src/publish_map.cpp">
+			<Option target="publish_map"/>
 		</Unit>
 		<Unit filename="/usr/src/gtest/src/gtest-all.cc">
 			<Option target="gtest"/>
@@ -1577,19 +1721,16 @@
 		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/catkin_generated/installspace/_setup_util.py">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\installspace\"/>
 		</Unit>
-		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindG2O.cmake">
-			<Option virtualFolder="CMake Files\cmake_modules\"/>
-		</Unit>
 		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindCSparse.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
-		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindCholmod.cmake">
+		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindG2O.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindEigen3.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
-		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindSuiteSparse.cmake">
+		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindCholmod.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>

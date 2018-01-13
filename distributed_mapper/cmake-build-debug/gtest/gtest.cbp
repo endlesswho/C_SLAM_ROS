@@ -614,19 +614,16 @@
 		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake-build-debug/catkin_generated/installspace/_setup_util.py">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\installspace\"/>
 		</Unit>
-		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindG2O.cmake">
-			<Option virtualFolder="CMake Files\cmake_modules\"/>
-		</Unit>
 		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindCSparse.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
-		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindCholmod.cmake">
+		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindG2O.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindEigen3.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
-		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindSuiteSparse.cmake">
+		<Unit filename="/home/huyh/distributed_mapper_ws/src/distributed_mapper/cmake_modules/FindCholmod.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>

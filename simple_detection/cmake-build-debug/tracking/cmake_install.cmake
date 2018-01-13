@@ -1,4 +1,4 @@
-# Install script for directory: /home/huyh/C_SLAM_ws/src/simple_detection/tracking
+# Install script for directory: /home/huyh/distributed_mapper_ws/src/simple_detection/tracking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

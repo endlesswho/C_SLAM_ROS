@@ -1,0 +1,8 @@
+prefix=/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/devel
+
+Name: simple_detection
+Description: Description of simple_detection
+Version: 0.0.0
+Cflags: -I/home/huyh/distributed_mapper_ws/src/simple_detection/depth_clustering
+Libs: -L/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/devel/lib -lcloud -lidentifiable -lground_remove -ldifference -limage_labeler -lprojections -lros_bridge -lvelodyne_utils -lfolder_reader -lvisualization
+Requires: roscpp sensor_msgs std_msgs nav_msgs message_filters tf

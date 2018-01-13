@@ -4,15 +4,25 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/huyh/C_SLAM_ws/src/simple_detection/src/simple_detection.cpp" "/home/huyh/C_SLAM_ws/src/simple_detection/cmake-build-debug/CMakeFiles/simple_detection.dir/src/simple_detection.cpp.o"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/src/simple_detection.cpp" "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/CMakeFiles/simple_detection.dir/src/simple_detection.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DISABLE_DAVIDSDK"
+  "DISABLE_DSSDK"
+  "DISABLE_ENSENSO"
+  "DISABLE_LIBUSB_1_0"
   "DISABLE_OPENNI2"
   "DISABLE_PCAP"
   "DISABLE_PNG"
+  "PCL_FOUND"
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_OPENGL_LIB"
+  "QT_WIDGETS_LIB"
+  "QT_XML_LIB"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_PACKAGE_NAME=\"simple_detection\""
   "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
@@ -42,17 +52,39 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/hdf5/openmpi"
   "/usr/include/libxml2"
   "/usr/include/tcl"
+  "/usr/include/x86_64-linux-gnu/qt5"
+  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
+  "/usr/include/x86_64-linux-gnu/qt5/QtXml"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"
   "../include"
-  "/usr/include/pcl-1.7"
+  "/usr/local/include/pcl-1.8"
   "/usr/include/eigen3"
   "/usr/include/ni"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "../config"
+  "../depth_clustering"
+  "depth_clustering"
+  "/opt/ros/kinetic/include/opencv-3.2.0-dev"
+  "/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv"
+  "/usr/include/QGLViewer"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/huyh/C_SLAM_ws/src/simple_detection/cmake-build-debug/tracking/CMakeFiles/tracking.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/tracking/CMakeFiles/tracking.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/ros_bridge/CMakeFiles/ros_bridge.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/image_labelers/CMakeFiles/image_labeler.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/ground_removal/CMakeFiles/ground_remove.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/visualization/CMakeFiles/visualization.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/image_labelers/diff_helpers/CMakeFiles/difference.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/utils/CMakeFiles/velodyne_utils.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/utils/CMakeFiles/cloud.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/projections/CMakeFiles/projections.dir/DependInfo.cmake"
+  "/home/huyh/distributed_mapper_ws/src/simple_detection/cmake-build-debug/depth_clustering/communication/CMakeFiles/identifiable.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

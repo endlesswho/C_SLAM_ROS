@@ -1,0 +1,8 @@
+prefix=/home/huyh/distributed_mapper_ws/src/gps_node/cmake-build-debug/devel
+
+Name: gps_node
+Description: Description of gps_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/huyh/distributed_mapper_ws/src/gps_node/cmake-build-debug/devel/lib 
+Requires: 

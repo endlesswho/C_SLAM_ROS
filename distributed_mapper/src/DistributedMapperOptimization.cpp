@@ -272,10 +272,13 @@ int main(int argc, char* argv[])
              * @param useFlaggedInit:to use flagged initialization or not
              * @param useLandmarks:是否包含Landmark，比如机器人是a，那么对应的Landmark是A
             */
+            double start=clock();
             vector< Values > estimates =  distributedOptimizer(distMappers, maxIter, updateType, gamma,
                                                                rotationEstimateChangeThreshold, poseEstimateChangeThreshold, useFlaggedInit, useLandmarks,
                                                                debug, rotationTrace, poseTrace, subgraphRotationTrace, subgraphPoseTrace, rotationVectorValuesTrace);
-
+            double finish=clock();
+            double totaltime=(double)(finish-start)/CLOCKS_PER_SEC;
+            cout<<"distributed time cost:"<<totaltime<<endl;
             if(debug)
                 cout << "Done" << endl;
 
@@ -334,13 +337,21 @@ int main(int argc, char* argv[])
             ////////////////////////////////////////////////////////////////////////////////
             // Centralized Two Stage
             ////////////////////////////////////////////////////////////////////////////////
+            start=clock();
             Values centralized = distributed_mapper::multirobot_util::centralizedEstimation(fullGraphWithPrior, model, priorModel, useBetweenNoise);
+            finish=clock();
+            totaltime=(double)(finish-start)/CLOCKS_PER_SEC;
+            cout<<"centralized time cost:"<<totaltime<<endl;
             std::cout << "Centralized Two Stage Error: " << chordalGraph.error(centralized) << std::endl;
 
             ////////////////////////////////////////////////////////////////////////////////
             // Centralized Two Stage + Gauss Newton
             ////////////////////////////////////////////////////////////////////////////////
+            start=clock();
             Values chordalGN = distributed_mapper::multirobot_util::centralizedGNEstimation(fullGraphWithPrior, model, priorModel, useBetweenNoise);
+            finish=clock();
+            totaltime=(double)(finish-start)/CLOCKS_PER_SEC;
+            cout<<"centralized GN time cost:"<<totaltime<<endl;
             std::cout << "Centralized Two Stage + GN Error: " << chordalGraph.error(chordalGN) << std::endl;
 
             ////////////////////////////////////////////////////////////////////////////////

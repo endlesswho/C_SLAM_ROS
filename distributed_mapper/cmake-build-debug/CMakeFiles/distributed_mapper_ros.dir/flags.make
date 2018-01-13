@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -fPIC -g
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"distributed_mapper\"
 
-CXX_INCLUDES = -I/usr/include/eigen3 -I/usr/local/lib/cmake/GTSAM/../../../include -I/usr/local/include/gtsam/3rdparty/Eigen -I/home/huyh/distributed_mapper_ws/src/distributed_mapper/include/distributed_mapper -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/usr/include/suitesparse -I/usr/include/eigen3 -I/usr/local/lib/cmake/GTSAM/../../../include -I/usr/local/include/gtsam/3rdparty/Eigen -I/home/huyh/distributed_mapper_ws/src/distributed_mapper/include/distributed_mapper -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

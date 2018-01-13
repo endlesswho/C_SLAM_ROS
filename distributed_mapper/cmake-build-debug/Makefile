@@ -179,6 +179,19 @@ make_graph/fast:
 .PHONY : make_graph/fast
 
 #=============================================================================
+# Target rules for targets named g2o_optimization
+
+# Build rule for target.
+g2o_optimization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 g2o_optimization
+.PHONY : g2o_optimization
+
+# fast build rule for target.
+g2o_optimization/fast:
+	$(MAKE) -f CMakeFiles/g2o_optimization.dir/build.make CMakeFiles/g2o_optimization.dir/build
+.PHONY : g2o_optimization/fast
+
+#=============================================================================
 # Target rules for targets named distributed-mapper-static
 
 # Build rule for target.
@@ -229,6 +242,19 @@ tf2_msgs_generate_messages_eus: cmake_check_build_system
 tf2_msgs_generate_messages_eus/fast:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named publish_map
+
+# Build rule for target.
+publish_map: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publish_map
+.PHONY : publish_map
+
+# fast build rule for target.
+publish_map/fast:
+	$(MAKE) -f CMakeFiles/publish_map.dir/build.make CMakeFiles/publish_map.dir/build
+.PHONY : publish_map/fast
 
 #=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_cpp
@@ -1085,6 +1111,33 @@ src/DistributedOptimizationRos.cpp.s:
 	$(MAKE) -f CMakeFiles/distributed_mapper_ros.dir/build.make CMakeFiles/distributed_mapper_ros.dir/src/DistributedOptimizationRos.cpp.s
 .PHONY : src/DistributedOptimizationRos.cpp.s
 
+src/g2o_optimization.o: src/g2o_optimization.cpp.o
+
+.PHONY : src/g2o_optimization.o
+
+# target to build an object file
+src/g2o_optimization.cpp.o:
+	$(MAKE) -f CMakeFiles/g2o_optimization.dir/build.make CMakeFiles/g2o_optimization.dir/src/g2o_optimization.cpp.o
+.PHONY : src/g2o_optimization.cpp.o
+
+src/g2o_optimization.i: src/g2o_optimization.cpp.i
+
+.PHONY : src/g2o_optimization.i
+
+# target to preprocess a source file
+src/g2o_optimization.cpp.i:
+	$(MAKE) -f CMakeFiles/g2o_optimization.dir/build.make CMakeFiles/g2o_optimization.dir/src/g2o_optimization.cpp.i
+.PHONY : src/g2o_optimization.cpp.i
+
+src/g2o_optimization.s: src/g2o_optimization.cpp.s
+
+.PHONY : src/g2o_optimization.s
+
+# target to generate assembly for a file
+src/g2o_optimization.cpp.s:
+	$(MAKE) -f CMakeFiles/g2o_optimization.dir/build.make CMakeFiles/g2o_optimization.dir/src/g2o_optimization.cpp.s
+.PHONY : src/g2o_optimization.cpp.s
+
 src/make_graph.o: src/make_graph.cpp.o
 
 .PHONY : src/make_graph.o
@@ -1112,6 +1165,33 @@ src/make_graph.cpp.s:
 	$(MAKE) -f CMakeFiles/make_graph.dir/build.make CMakeFiles/make_graph.dir/src/make_graph.cpp.s
 .PHONY : src/make_graph.cpp.s
 
+src/publish_map.o: src/publish_map.cpp.o
+
+.PHONY : src/publish_map.o
+
+# target to build an object file
+src/publish_map.cpp.o:
+	$(MAKE) -f CMakeFiles/publish_map.dir/build.make CMakeFiles/publish_map.dir/src/publish_map.cpp.o
+.PHONY : src/publish_map.cpp.o
+
+src/publish_map.i: src/publish_map.cpp.i
+
+.PHONY : src/publish_map.i
+
+# target to preprocess a source file
+src/publish_map.cpp.i:
+	$(MAKE) -f CMakeFiles/publish_map.dir/build.make CMakeFiles/publish_map.dir/src/publish_map.cpp.i
+.PHONY : src/publish_map.cpp.i
+
+src/publish_map.s: src/publish_map.cpp.s
+
+.PHONY : src/publish_map.s
+
+# target to generate assembly for a file
+src/publish_map.cpp.s:
+	$(MAKE) -f CMakeFiles/publish_map.dir/build.make CMakeFiles/publish_map.dir/src/publish_map.cpp.s
+.PHONY : src/publish_map.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1121,10 +1201,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... make_graph"
+	@echo "... g2o_optimization"
 	@echo "... distributed-mapper-static"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_eus"
+	@echo "... publish_map"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... actionlib_generate_messages_eus"
@@ -1199,9 +1281,15 @@ help:
 	@echo "... src/DistributedOptimizationRos.o"
 	@echo "... src/DistributedOptimizationRos.i"
 	@echo "... src/DistributedOptimizationRos.s"
+	@echo "... src/g2o_optimization.o"
+	@echo "... src/g2o_optimization.i"
+	@echo "... src/g2o_optimization.s"
 	@echo "... src/make_graph.o"
 	@echo "... src/make_graph.i"
 	@echo "... src/make_graph.s"
+	@echo "... src/publish_map.o"
+	@echo "... src/publish_map.i"
+	@echo "... src/publish_map.s"
 .PHONY : help
 
 

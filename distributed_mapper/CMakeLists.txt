@@ -18,23 +18,43 @@ find_package(catkin REQUIRED COMPONENTS
   tf
 )
 
+#LIST( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
 LIST( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
 SET( G2O_ROOT /usr/local/include/g2o )
-SET( ${CSPARSE_INCLUDE_DIRS} /usr/include/suitesparse)
-FIND_PACKAGE( G2O REQUIRED)
-#csparse
-FIND_PACKAGE( CSparse REQUIRED)
-Find_Package(Cholmod REQUIRED)
-find_package(Eigen3 REQUIRED)
-FIND_PACKAGE(SuiteSparse)
-include_directories(${SUITESPARSE_INCLUDE_DIRS})
-include_directories(${G2O_INCLUDE_DIRS} ${EIGEN3_INCLUDE_DIR})
-include_directories(${CSPARSE_INCLUDE_DIRS})
-include_directories(${CHOLMOD_INCLUDE_DIRS})
+SET( CSPARSE_INCLUDE_DIRS /usr/include/suitesparse)
 
-message("find g2o libraries in: " ${G2O_INCLUDE_DIR})
-message("find g2o lib in " ${G2O_LIBS})
-message("find csparse in " ${CSPARSE_INCLUDE_DIRS})
+#csparse
+FIND_PACKAGE( CSparse)
+IF(CSPARSE_FOUND)
+    MESSAGE("CSparse Found")
+        else()
+    message("CSparse not Found")
+        endif(CSPARSE_FOUND)
+include_directories(${CSPARSE_INCLUDE_DIR})
+#link_libraries(${CSPARSE_LIBRARY_DIR})
+message("find csparse in: ${CSPARSE_INCLUDE_DIR}")
+
+FIND_PACKAGE( G2O REQUIRED)
+find_package(Eigen3 REQUIRED)
+include_directories(${G2O_INCLUDE_DIRS} ${EIGEN3_INCLUDE_DIR})
+message("find g2o libraries in:  ${G2O_INCLUDE_DIR}")
+
+FIND_PACKAGE(Cholmod)
+IF(CHOLMOD_FOUND)
+    MESSAGE("CHOLMOD FOUND")
+        ENDIF(CHOLMOD_FOUND)
+include_directories(${CHOLMOD_INCLUDE_DIRS})
+#link_libraries(${CHOLMOD_LIBRARY_DIRS})
+
+#FIND_PACKAGE(SuiteSparse)
+#if(SuiteSparse_FOUND)
+#    MESSAGE("SuitSparse Found")
+#    include_directories(${SUITESPARSE_INCLUDE_DIRS})
+#    message("find suitsparse libraries in:  ${SUITESPARSE_INCLUDE_DIR}")
+#else()
+#    message("SuitSparse NOT FOUND")
+#endif(SuiteSparse_FOUND)
+
 
 ###########################################################################
 # Find GTSAM
@@ -92,5 +112,8 @@ target_link_libraries(distributed_mapper_optimization distributed-mapper ${catki
 add_executable(distributed_mapper_ros src/DistributedOptimizationRos.cpp)
 target_link_libraries(distributed_mapper_ros distributed-mapper ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS} ${G2OLIBS} gtsam)
 
+add_executable(g2o_optimization src/g2o_optimization.cpp)
+target_link_libraries(g2o_optimization distributed-mapper ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS} ${G2OLIBS} gtsam)
 
-
+add_executable(publish_map src/publish_map.cpp)
+target_link_libraries(publish_map ${catkin_LIBRARIES} ${PCL_LIBRARIES})

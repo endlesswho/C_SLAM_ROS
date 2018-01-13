@@ -15,9 +15,6 @@
 #include <pcl/point_types.h>
 #include <pcl/point_cloud.h>
 #include <pcl/io/pcd_io.h>
-#include <pcl/segmentation/region_growing.h>
-#include <pcl/segmentation/extract_clusters.h>
-#include <pcl/kdtree/kdtree_flann.h>
 #include <pcl/kdtree/io.h>
 
 #include <pcl/common/time.h>
@@ -25,8 +22,25 @@
 
 #include "../tracking/TrackManager.h"
 
+#include <qapplication.h>
+
+#include <string>
+
+#include "ros_bridge/cloud_odom_ros_subscriber.h"
+
+#include "../depth_clustering/clusterers/image_based_clusterer.h"
+#include "../depth_clustering/ground_removal/depth_ground_remover.h"
+#include "../depth_clustering/projections/ring_projection.h"
+#include "../depth_clustering/projections/spherical_projection.h"
+#include "../depth_clustering/utils/radians.h"
+#include "../depth_clustering/visualization/cloud_saver.h"
+#include "../depth_clustering/visualization/visualizer.h"
+
+#include "../depth_clustering/tclap/CmdLine.h"
+
 
 using namespace std;
+using namespace depth_clustering;
 
 pcl::PointCloud<pcl::PointXYZ>::Ptr last_cloudPointer(new pcl::PointCloud<pcl::PointXYZ>);
 pcl::PointCloud<pcl::PointXYZ>::Ptr current_cloudPointer(new pcl::PointCloud<pcl::PointXYZ>);
@@ -47,12 +61,12 @@ int obj_idx = 0;
 int obj_index = 0;
 bool cloudCBRes = false;
 double duration;
-const float DISTANCE_XY = 64;
+const float DISTANCE_XY = 100;
 
 TrackManager trackManager;
 
 // get Bound of the cluster
-void getBound(pcl::PointXYZRGB min_point, pcl::PointXYZRGB max_point, Eigen::Vector4f &size)
+void getBound(pcl::PointXYZL min_point, pcl::PointXYZL max_point, Eigen::Vector4f &size)
 {
     size(0)=max_point.x-min_point.x;
     size(1)=max_point.y-min_point.y;
@@ -198,147 +212,60 @@ visualization_msgs::Marker makeVelocityMarkers(int id,Eigen::Vector4f point_star
     return marker;
 }
 
-void calc_NN()
-{
-    if(last_objs.empty())
+Cloud::Ptr cloud_cast(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_in) {
+    Cloud::Ptr cloud(new Cloud);
+    RichPoint point;
+    for (size_t i_point = 0; i_point < cloud_in->points.size (); i_point++)
     {
-        last_objs=current_objs;
-        return;
+        point.x() = *(cloud_in->points[i_point].data);
+        point.y() = *(cloud_in->points[i_point].data + 1);
+        point.z() = *(cloud_in->points[i_point].data + 2);
+        cloud->push_back(point);
     }
-    // calc NN and V
-    pcl::PointCloud<pcl::PointXYZ>::Ptr last_center(new pcl::PointCloud<pcl::PointXYZ>);
-    pcl::PointCloud<pcl::PointXYZ>::Ptr current_center(new pcl::PointCloud<pcl::PointXYZ>);
-    cout<<"The size of center_last: "<<last_objs.size()<<endl;
-    for(int i=0;i<last_objs.size();i++)
-    {
-        pcl::PointXYZ tmp;
-        tmp.x=last_objs[i](0);
-        tmp.y=last_objs[i](1);
-        tmp.z=last_objs[i](2);
-        last_center->push_back(tmp);
-    }
-    for(int i=0;i<current_objs.size();i++)
-    {
-        pcl::PointXYZ tmp;
-        tmp.x=current_objs[i](0);
-        tmp.y=current_objs[i](1);
-        tmp.z=current_objs[i](2);
-
-        current_center->push_back(tmp);
-
-    }
-
-    // make a compare between last frame and current frame and get the inliners and outliners
-
-    pcl::KdTreeFLANN<pcl::PointXYZ> kdtree;
-    kdtree.setInputCloud(last_center);
-    // cout<<current_cloudPointer->size()<<"      "<<last_cloudPointer->size()<<endl;
-    pcl::getApproximateIndices<pcl::PointXYZ>(current_center, last_center, indices);		//match
-    // cout<<current_cloud.size()<<"  "<<indices.size()<<endl;
-
-    // disp V
-    double distance = 0, Velocity=0;
-    for(int i=0; i<current_center->size(); i++) {
-        distance = sqrt(pow((current_center->points[i].x - last_center->points[indices[i]].x), 2) +
-                   pow((current_center->points[i].y - last_center->points[indices[i]].y), 2)
-                   + pow((current_center->points[i].z - last_center->points[indices[i]].z), 2));
-        // get velocity small than a throttle
-        if (distance<0.5){
-            Eigen::Vector4f point_start, point_end;
-            point_start(0) = current_center->points[i].x;
-            point_start(1) = current_center->points[i].y;
-            point_start(2) = current_center->points[i].z;
-            point_end(0) = last_center->points[indices[i]].x;
-            point_end(1) = last_center->points[indices[i]].y;
-            point_end(2) = last_center->points[indices[i]].z;
-
-            // store markers
-#if 1
-            velocity_list.markers.push_back(makeVelocityMarkers(i ,point_start, point_end));
-            Eigen::Matrix<float, 7, 1> obj;
-            obj << current_objs[i];
-            marker_list.markers.push_back(makeMarkers(obj_index,obj));
-            obj_index++;
-#endif
-            Velocity = sqrt(distance)*10;
-            std::cout<<"Velocity"<<Velocity<<endl;
-        }
-    }
-
-    last_objs = current_objs;
-    current_objs.clear();
+    return cloud;
 }
 
-// get clusters
-pcl::PointCloud<pcl::PointXYZRGB>::Ptr cluster_filter(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_in)
+void segmentation(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_in)
 {
-    pcl::PointCloud<pcl::Normal>::Ptr cloud_normals (new pcl::PointCloud<pcl::Normal>());
-    pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud_segmented (new pcl::PointCloud<pcl::PointXYZRGB>());
-    pcl::PointCloud<pcl::PointXYZRGB> cloud_filtered_tmp;
-    std::vector <pcl::PointIndices> clusters_indices;
-    std::vector <pcl::PointCloud<pcl::PointXYZ> > clusters;
-    std::vector <pcl::PointCloud<pcl::PointXYZRGB> > clusters_rgb;
-//    // Estimate the normals
-//   pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal> ne;
-//   ne.setInputCloud (cloud_in);
-//   pcl::search::KdTree<pcl::PointXYZ>::Ptr tree_n (new pcl::search::KdTree<pcl::PointXYZ>());
-//   ne.setSearchMethod (tree_n);
-//   ne.setRadiusSearch (0.5);
-//
-//   ne.compute (*cloud_normals);
-//    start = clock();
-//   pcl::console::print_highlight ("Normals are computed and size is %lu\n", cloud_normals->points.size ());
-//
-//   // Region growing
-//   pcl::RegionGrowing<pcl::PointXYZ, pcl::Normal> rg;
-//   rg.setSmoothModeFlag (false); // Depends on the cloud being processed
-//   rg.setInputCloud (cloud_in);
-//   rg.setInputNormals (cloud_normals);
-//
-//   pcl::StopWatch watch;
-//   rg.extract (clusters_indices);
-//   pcl::console::print_highlight ("Extraction time: %f\n", watch.getTimeSeconds());
-//   cloud_segmented = rg.getColoredCloud ();  //the point segmented will be colored
-
-   // Euclidean Extraction
-    // Creating the KdTree object for the search method of the extraction
-    pcl::search::KdTree<pcl::PointXYZ>::Ptr tree (new pcl::search::KdTree<pcl::PointXYZ>);
-    tree->setInputCloud (cloud_in);
-
-    pcl::EuclideanClusterExtraction<pcl::PointXYZ> ec;
-    ec.setClusterTolerance (0.15); // 15cm
-    ec.setMinClusterSize (100);
-    ec.setMaxClusterSize (25000);
-    ec.setSearchMethod (tree);
-    ec.setInputCloud (cloud_in);
-    ec.extract (clusters_indices);
-
-    cloud_segmented = getColoredCloud(cloud_in, clusters_indices);
-
-   // Writing the resulting cloud into a pcd file
-//   pcl::console::print_highlight ("Number of segments done is %lu\n", clusters_indices.size ());
-   //   pcl::PCDWriter writer;
-   //   writer.write<pcl::PointXYZRGB> ("segment_result.pcd", *cloud_segmented, false);
-
-    pcl::PointXYZRGB min_point, max_point;
-
+    pcl::PointXYZL min_point, max_point;
     Eigen::Vector4f size;
     Eigen::Matrix<float,6,1> obj;
 
-    //seperate each cluster
-    for (std::vector<pcl::PointIndices>::const_iterator it = clusters_indices.begin (); it != clusters_indices.end (); ++it)
-    {
-        pcl::PointCloud<pcl::PointXYZRGB> tmp;
-        for (std::vector<int>::const_iterator pit = it->indices.begin (); pit != it->indices.end (); ++pit)
-            tmp.push_back(cloud_segmented->points[*pit]);
-        if(tmp.size()>100)
-        {
-            clusters_rgb.push_back(tmp);
-        }
-    }
+    vector<Cloud>currentframe_cluster;
+    std::vector <pcl::PointCloud<pcl::PointXYZRGB> > clusters_rgb;
 
-    for(int i=0; i<clusters_rgb.size(); i++){
-        getMinMax3D(clusters_rgb[i],min_point,max_point);
+    int min_cluster_size = 100;
+    int max_cluster_size = 200000;
+
+    int smooth_window_size = 9;
+    Radians ground_remove_angle = 7_deg;
+
+    Radians angle_tollerance = Radians::FromDegrees(10);
+    auto proj_params_ptr = ProjectionParams::VLP_16();
+
+    // step 1 Remove Ground
+    auto depth_ground_remover = DepthGroundRemover(
+            *proj_params_ptr, ground_remove_angle, smooth_window_size);
+
+    // step 2 image labeler cluster
+    ImageBasedClusterer<LinearImageLabeler<>> clusterer(
+            angle_tollerance, min_cluster_size, max_cluster_size);
+
+    clusterer.SetDiffType(DiffFactory::DiffType::ANGLES);
+
+    depth_ground_remover.AddClient(&clusterer);
+
+    auto cloud = cloud_cast(cloud_in);
+
+    cloud->InitProjection(*proj_params_ptr);
+
+    depth_ground_remover.OnNewObjectReceived(*cloud, 0);
+
+    currentframe_cluster = clusterer.getClusters();
+
+    for(size_t i=0;i<currentframe_cluster.size();i++){
+        auto tmp = currentframe_cluster[i].ToPcl();
+        getMinMax3D(*tmp,min_point,max_point);
         getBound(min_point,max_point,size);
         // get cluster center
         obj(0) = (max_point.x+min_point.x)/2;
@@ -347,32 +274,23 @@ pcl::PointCloud<pcl::PointXYZRGB>::Ptr cluster_filter(pcl::PointCloud<pcl::Point
         obj(3) = size(0);
         obj(4) = size(1);
         obj(5) = size(2);
-//        write_file<<"center: "<<endl;
-
-        if(size(0)<1 && size(1)<1 && size(2)<2 && size(2)>0.2)
+        if(size(0)<2 && size(1)<2 && size(2)<2 && size(2)>0.2)
         {
             current_objs.push_back(obj);
-            cloud_filtered_tmp+=clusters_rgb[i];
         }
     }
-
-    cloud_filtered = cloud_filtered_tmp.makeShared();
 
     vector<Eigen::Matrix<float, 7, 1> > current_objs_idx = trackManager.update(current_objs);
     // store markers
 #if 1
-    for(int i=0; i<current_objs_idx.size();i++){
+    for(size_t i=0; i<current_objs_idx.size();i++){
         Eigen::Matrix<float, 7, 1> obj;
         obj = current_objs_idx[i];
         marker_list.markers.push_back(makeMarkers(obj_index, obj));
         obj_index++;
     }
 #endif
-
     current_objs.clear();
-    //calc_NN();
-
-    return cloud_filtered;
 }
 
 void cloudCB(const sensor_msgs::PointCloud2 &input)
@@ -382,7 +300,7 @@ void cloudCB(const sensor_msgs::PointCloud2 &input)
     pcl::fromROSMsg(input, *current_cloudPointer);
 
     double distance = 0;
-    for(int i=0; i<current_cloudPointer->size(); i++) {
+    for(size_t i=0; i<current_cloudPointer->size(); i++) {
         distance = pow((current_cloudPointer->points[i].x), 2) + pow((current_cloudPointer->points[i].y), 2);
         if(distance<=DISTANCE_XY && (current_cloudPointer->points[i].z)>-0.6)
             indexs.push_back(i);
@@ -391,7 +309,8 @@ void cloudCB(const sensor_msgs::PointCloud2 &input)
     pcl::copyPointCloud(*current_cloudPointer, indexs, *obstacles_pcl);
 
     //segmentation
-    cloud_segmented_result = cluster_filter(obstacles_pcl);
+    segmentation(obstacles_pcl);
+    //cloud_segmented_result = cluster_filter(obstacles_pcl);
 
     cloudCBRes = true;
 }
@@ -402,7 +321,6 @@ int main (int argc, char **argv)
 
     ros::NodeHandle nh;
     ros::Subscriber velodyne_cloud_sub = nh.subscribe("velodyne_points", 1, cloudCB);
-    //s ros::Subscriber velodyne_cloud_sub = nh.subscribe("velodyne_cloud_registered", 1, cloudCB);
     ros::Publisher pubObstacles = nh.advertise<sensor_msgs::PointCloud2>
                                            ("/obstacles", 1);
     ros::Publisher marker_pub = nh.advertise<visualization_msgs::MarkerArray>("visualization_marker", 10);
@@ -436,5 +354,3 @@ int main (int argc, char **argv)
     }
     return 0;
 }
-
-

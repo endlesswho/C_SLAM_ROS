@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/simple_detection.dir/src/simple_detection.cpp.o"
-  "simple_detection.pdb"
-  "simple_detection"
+  "devel/lib/simple_detection/simple_detection.pdb"
+  "devel/lib/simple_detection/simple_detection"
 )
 
 # Per-language clean rules from dependency scanning.

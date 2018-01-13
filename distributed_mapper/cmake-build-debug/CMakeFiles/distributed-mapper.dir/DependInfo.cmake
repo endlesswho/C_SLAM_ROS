@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/suitesparse"
   "/usr/include/eigen3"
   "/usr/local/lib/cmake/GTSAM/../../../include"
   "/usr/local/include/gtsam/3rdparty/Eigen"

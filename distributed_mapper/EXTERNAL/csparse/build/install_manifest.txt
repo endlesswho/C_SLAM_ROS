@@ -1,0 +1,3 @@
+/usr/local/lib/libext_csparse.a
+/usr/local/include/EXTERNAL/csparse/cs_api.h
+/usr/local/include/EXTERNAL/csparse/cs.h

@@ -8,6 +8,7 @@
 #include <tf/transform_datatypes.h>
 #include <tf/transform_broadcaster.h>
 #include <sensor_msgs/NavSatFix.h>
+#include "sensor_msgs/Imu.h"
 // g2o
 #include <g2o/types/slam3d/types_slam3d.h>
 #include <g2o/core/sparse_optimizer.h>
@@ -33,15 +34,16 @@ bool gps_init_flag = true;
 bool basic_trans_init_flag = false;
 bool continue_flag = false;
 bool cloudCBRes = false;
-const int ROBOT_A_IDX = 1300;
+//const int ROBOT_A_IDX = 1300;
+const int ROBOT_A_IDX = 420;
 int ROBOT_B_IDX = 0;
 
 float transformAftMapped[7] = {0,0,0,0,0,0,0};
 float GPS_transformation[7] = {0,0,0,0,0,0,0};
 
-double latitude_init, longitude_init;
+double latitude_init, longitude_init, altitude_init;
 
-Eigen::Isometry3d basic_trans;
+Eigen::Isometry3d basic_trans = Eigen::Isometry3d::Identity();
 Eigen::Isometry3d step;
 Eigen::Isometry3d step_last;
 Eigen::Isometry3d ROBOT_A_GPS;
@@ -106,7 +108,7 @@ void getPoseHandler(const nav_msgs::Odometry::ConstPtr& odomAftMapped){
 
     step = Eigen::Quaterniond(transformAftMapped[0], transformAftMapped[1], transformAftMapped[2], transformAftMapped[3]).normalized().toRotationMatrix();
     step.translation() = Eigen::Vector3d(transformAftMapped[4], transformAftMapped[5], transformAftMapped[6]);
-
+    step = basic_trans.inverse()*step;
     callback_flag = true;
 }
 
@@ -114,6 +116,7 @@ void getGPSHandler(const sensor_msgs::NavSatFix::ConstPtr& gps) {
     if(gps_init_flag){
         longitude_init = gps->longitude;
         latitude_init = gps->latitude;
+        altitude_init = gps->altitude;
         gps_init_flag = false;
     }
     // calc the distacnce of the gps node to the init points: delta_x and delta_y
@@ -125,11 +128,11 @@ void getGPSHandler(const sensor_msgs::NavSatFix::ConstPtr& gps) {
 
     GPS_transformation[4] = delta_x;
     GPS_transformation[5] = delta_y;
-    GPS_transformation[6] = gps->altitude;
+    GPS_transformation[6] = gps->altitude-altitude_init;
 }
 
-void getQuatHandler(const geometry_msgs::QuaternionStamped::ConstPtr& quat) {
-    geometry_msgs::Quaternion geoQuat = quat->quaternion;
+void getQuatHandler(const sensor_msgs::Imu::ConstPtr& quat) {
+    geometry_msgs::Quaternion geoQuat = quat->orientation;
     GPS_transformation[0] = geoQuat.w;
     GPS_transformation[1] = geoQuat.x;
     GPS_transformation[2] = geoQuat.y;
@@ -152,30 +155,27 @@ int main(int argc, char** argv) {
     // subscribe a topic
     ros::Subscriber subOdomAftIntegrated = nh.subscribe<nav_msgs::Odometry>
             ("/integrated_to_init", 10, getPoseHandler);
-//    ros::Subscriber subGPS = nh.subscribe<sensor_msgs::NavSatFix>
-//            ("/sbg_ellipse/navsat/fix", 5, getGPSHandler);
+    ros::Subscriber subGPS = nh.subscribe<sensor_msgs::NavSatFix>
+            ("/fix", 5, getGPSHandler);
+    ros::Subscriber subQuat = nh.subscribe<sensor_msgs::Imu>
+            ("/imu", 5, getQuatHandler);
 //    ros::Subscriber subQuat = nh.subscribe<geometry_msgs::QuaternionStamped>
 //            ("/sbg_ellipse/ekf/quat", 5, getQuatHandler);
     ros::Rate rate(10);
     bool status = ros::ok();
     int64_t tmp  = 0;
     while(status){
-//        if(!basic_trans_init_flag){
-//            // Run Once Only
-//            basic_trans = Eigen::Quaterniond(GPS_transformation[0], GPS_transformation[1], GPS_transformation[2], GPS_transformation[3]).normalized().toRotationMatrix();
-//            basic_trans.translation() = Eigen::Vector3d(GPS_transformation[4], GPS_transformation[5], GPS_transformation[6]);
-//            basic_trans_init_flag = true;
-//            cout<<"basic_trans"<<endl;
-//            cout<<basic_trans.matrix()<<endl;
-//            addVertex(graph, 0, Eigen::Isometry3d::Identity());
-//        }
+        if(cloudCBRes&&(!basic_trans_init_flag)){
+            // Run Once Only
+            basic_trans = Eigen::Quaterniond(GPS_transformation[0], GPS_transformation[1], GPS_transformation[2], GPS_transformation[3]).normalized().toRotationMatrix();
+            basic_trans.translation() = Eigen::Vector3d(GPS_transformation[4], GPS_transformation[5], GPS_transformation[6]);
+            basic_trans_init_flag = true;
+            cout<<"basic_trans"<<endl;
+            cout<<basic_trans.matrix()<<endl;
+        }
        // add Vertex to the graph
         if(callback_flag){
             const int id = uniqueId.getUniqueId();
-            // gtsam key and symbol
-//            gtsam::Symbol new_key('a', id);
-//            cout<<"id:"<<id<<endl;
-//            cout<<"key:"<<new_key.key()<<endl;
 
             if(id<=ROBOT_A_IDX){
                 addVertex(graph, id, step);
